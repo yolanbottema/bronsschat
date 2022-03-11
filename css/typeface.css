@@ -1,6 +1,21 @@
-h1,h2,h3{
+h1{
     font-family: 'rockwell';
     font-weight: bold;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+h2{
+    font-family: 'rockwell';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+h3{
+    font-family: 'rockwell';
+    font-weight: bold;
+    font-size: 18px;
 }
 
 p{
