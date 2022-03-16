@@ -131,6 +131,7 @@ html {
         background-position: top center;
         background-size: 100vw auto;
         background-repeat: no-repeat;
+        background-attachment: initial;
     }
 
     .titel {
@@ -141,7 +142,7 @@ html {
 
     h1 {
         font-size: 22px !important;
-        line-height: 20px !important;
+        line-height: 30px !important;
     }
 
     .icon-scroll {
