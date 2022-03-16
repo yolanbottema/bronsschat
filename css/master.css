@@ -36,6 +36,7 @@ html {
     background-position: top center;
     background-size: 100vw auto;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 50vw;
 }
 
