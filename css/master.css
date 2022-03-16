@@ -125,23 +125,30 @@ html {
         width: 20%;
     }
 
-    #homepage{
+    #homepage {
         height: 90vh;
         background-position: top center;
         background-size: 100vw auto;
         background-repeat: no-repeat;
     }
-    
-    .titel{
+
+    .titel {
         margin-left: 25%;
         text-align: center;
         margin-top: 3%;
     }
 
-    h1{
-     font-size: 22px !important;
-     line-height: 20px !important;
+    h1 {
+        font-size: 22px !important;
+        line-height: 20px !important;
     }
+
+    .icon-scroll {
+        top: 60%;
+        margin-top: 18%;
+
+    }
+    
 
 }
 
@@ -162,7 +169,7 @@ html {
     flex-direction: row;
 }
 
-.intro-text{
+.intro-text {
     text-align: justify;
     color: #fff;
     margin-left: 10%;
@@ -170,46 +177,110 @@ html {
     /* margin-right: 15%; */
 }
 
-.intro-img{
+.intro-img {
     margin-right: 10%;
     margin-left: 5%;
     margin-top: 1%;
 }
 
-#intro-img{
+#intro-img {
     height: 50vh;
-    width: 50vw;
+    width: 40vw;
 }
 
 @media (max-width: 768px) {
-    #intro{
+    #intro {
         height: 100%;
     }
 
-    .intro-flex{
+    .intro-flex {
         display: flex;
         flex-direction: column;
     }
-    
-    .intro-titel{
+
+    .intro-titel {
         padding-top: 5%;
     }
 
-    .intro-text{
+    .intro-text {
         margin-left: 5%;
         margin-right: 5%;
     }
-    
-    .intro-img{
+
+    .intro-img {
         margin: 5%;
     }
 
-    #intro-img{
+    #intro-img {
         height: auto;
         width: 100%;
     }
 }
 
+/* vindplaats */
+.vindplaats-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+#vindplaats {
+    height: 50vw;
+}
+
+.vindplaats-titel {
+    color: #2890df;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.vindplaats-text{
+    text-align: justify;
+    color: #000;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+/* leaflet kaart */
+
+.leaflet{
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#map {
+    height: 500px;
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+    #vindplaats {
+        height: 100%;
+    }
+
+    .vindplaats-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vindplaats-titel {
+        padding-top: 5%;
+    }
+
+    .vindplaats-text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .leaflet {
+        margin: 5%;
+    }
+
+    #map{
+        height: 350px;
+        width: 340px
+    }
+}
 
 /* footer */
 .footer {
@@ -237,7 +308,7 @@ html {
         margin-right: 4%;
     }
 
-    .footer{
+    .footer {
         margin-top: 100%;
     }
 }
