@@ -19,12 +19,12 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 //     }
 // }).addTo(map).bindPopup("<b>Markerwaardweg</b><br>N240");
 
-// var marker = L.marker([52.697, 5.15]).addTo(map);
-// marker.bindPopup("<b>Vindplaats bronsschat</b>").openPopup();
+var marker = L.marker([52.697, 5.15]).addTo(map);
+marker.bindPopup("<b>Vindplaats bronsschat</b>").openPopup();
 
 var hildeIcon = L.icon({
     iconUrl: '../media/logo-h.svg',
-    iconSize:     [38, 95], // size of the icon
+    iconSize:     [50, 50], // size of the icon
 });
 
-L.marker([52.697, 5.15], {icon: hildeIcon}).addTo(map).bindPopup("<b>Vindplaats bronsschat</b>");
+L.marker([52.544, 4.65], {icon: hildeIcon}).addTo(map).bindPopup("<b>Huis van Hilde</b>");
