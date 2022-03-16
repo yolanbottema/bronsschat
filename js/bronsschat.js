@@ -9,15 +9,15 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
 }).addTo(map);
 
-// var markerwaard = L.geoJSON(markerwaard, {
-//     style: function (features) {
-//         return {
-//             color: "#e61432",
-//             weight: 5,
-//             opacity: 1
-//         };
-//     }
-// }).addTo(map).bindPopup("<b>Markerwaardweg</b><br>N240");
+var markerwaard = L.geoJSON(markerwaard, {
+    style: function (features) {
+        return {
+            color: "#e61432",
+            weight: 5,
+            opacity: 1
+        };
+    }
+}).addTo(map).bindPopup("<b>Markerwaardweg</b><br>N240");
 
 var marker = L.marker([52.697, 5.15]).addTo(map);
 marker.bindPopup("<b>Vindplaats bronsschat</b>").openPopup();
