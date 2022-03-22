@@ -26,7 +26,7 @@
   
   .slideshow .button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
     height: 40px;
@@ -45,7 +45,7 @@
   }
   
   .slideshow .right {
-    right: 0.01%;
+    right: -0.1%;
   }
 
   @media (max-width: 768px) {
