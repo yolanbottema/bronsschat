@@ -127,7 +127,7 @@ html {
     }
 
     #homepage {
-        height: 90vh;
+        height: 50vh;
         background-position: top center;
         background-size: 100vw auto;
         background-repeat: no-repeat;
@@ -146,7 +146,7 @@ html {
     }
 
     .icon-scroll {
-        top: 60%;
+        top: 43.5%;
         margin-top: 18%;
 
     }
@@ -185,8 +185,13 @@ html {
     margin-top: 1%;
 }
 
-#intro-img {
-    height: 50vh;
+/* #intro-img {
+    height: 100%;
+    width: 140%;
+} */
+
+#intro-img{
+    height: auto;
     width: 40vw;
 }
 
@@ -285,24 +290,24 @@ html {
 }
 
 /* bronsschat */
-/* intro */
-#bronsschat {
+
+#vondsten {
     background-color: #2890df;
     height: 50vw;
 }
 
-.bronsschat-titel {
+.vondsten-titel {
     color: #fff;
     text-align: center;
     padding-top: 2%;
 }
 
-.bronsschat-flex {
+.vondsten-flex {
     display: flex;
     flex-direction: row;
 }
 
-.bronsschat-text {
+.vondsten-text {
     text-align: justify;
     color: #fff;
     margin-left: 10%;
@@ -310,41 +315,44 @@ html {
     /* margin-right: 15%; */
 }
 
-.bronsschat-img {
+.vondsten-img {
     margin-right: 10%;
     margin-left: 5%;
     margin-top: 1%;
+    /* width: 100%; */
 }
 
-#bronsschat-img {
-    height: 50vh;
+/* #vondsten-img {
+    height: auto;
     width: 40vw;
-}
+} */
+
+
 
 @media (max-width: 768px) {
-    #bronsschat {
+    #vondsten {
         height: 100%;
     }
 
-    .bronsschat-flex {
+    .vondsten-flex {
         display: flex;
         flex-direction: column;
     }
 
-    .bronsschat-titel {
+    .vondsten-titel {
         padding-top: 5%;
     }
 
-    .bronsschat-text {
+    .vondsten-text {
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    .bronsschat-img {
+    .vondsten-img {
         margin: 5%;
     }
 
-    #bronsschat-img {
+    #vondsten-img {
         height: auto;
         width: 100%;
     }
@@ -371,8 +379,8 @@ html {
     #pnh {
         height: 40%;
         width: 40%;
-        margin-left: 40%;
-        margin-top: 4%;
+        margin-left: 32%;
+        margin-top: 5%;
         margin-right: 4%;
     }
 

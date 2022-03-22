@@ -11,6 +11,7 @@
     <!-- css -->
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/typeface.css">
+    <link rel="stylesheet" href="css/slideshow.css">
 
     <!-- leaflet css -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -123,13 +124,13 @@
 
     <!-- bronsschat -->
 
-    <section id="bronsschat">
-        <div class="bronsschat">
-            <div class="bronsschat-titel">
-                <h2>De bronsschat</h2>
+    <section id="vondsten">
+        <div class="vondsten">
+            <div class="vondsten-titel">
+                <h2>De vondsten</h2>
             </div>
-            <div class="bronsschat-flex">
-                <div class="bronsschat-text">
+            <div class="vondsten-flex">
+                <div class="vondsten-text">
                     <p>
                         Bij de Markerwaardweg is een heel merkwaardige verzameling bronzen voorwerpen en een vuurstenen
                         werktuig gevonden. Het lijkt te gaan om voorwerpen die te maken hebben met opzichtig uiterlijk
@@ -146,8 +147,39 @@
                         vennetjes werden achtergelaten. De theorie is dat dit een soort ‘offers’ waren.
                     </p>
                 </div>
-                <div class="bronsschat-img">
-                    <img id="bronsschat-img" src="/media/hoofd-foto.png" alt="">
+                <!-- <div class="vondsten-img">
+                    <img id="vondsten-img" src="/media/hoofd-foto.png" alt="">
+                </div> -->
+                <div class="vondsten-img">
+                    <div class="slideshow">
+                        <img src="/media/bronsschat/vondst1.jpeg" alt="" class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst2.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst3.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst4.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst5.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst6.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst7.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst8.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst9.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst10.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst11.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst12.jpeg"  alt=""
+                            class="slides">
+                        <img loading="lazy" src="/media/bronsschat/vondst13.jpeg"  alt=""
+                            class="slides">
+                        <button class="button left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="button right" onclick="plusDivs(+1)">&#10095;</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,6 +195,9 @@
 
 
     </footer>
+
+    <script defer src="js/slideshow.js"></script>
+
 </body>
 
 
