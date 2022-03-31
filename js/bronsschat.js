@@ -41,7 +41,7 @@ var markerwaardweg = L.geoJSON(markerwaardweg, {
 
 
 var marker = L.marker([52.697, 5.15]).addTo(map);
-marker.bindPopup("<b>Vindplaats bronsschat</b>").openPopup();
+marker.bindPopup("<b>Vindplaats bronsschat</b>");
 
 var hildeIcon = L.icon({
     iconUrl: '../media/logo-h.svg',

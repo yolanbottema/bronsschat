@@ -76,4 +76,8 @@
       .slideshow .right {
         right: -100%;
       }
+
+      .slideshow .button {
+        background: rgba(251, 176, 2, 0.5);
+      }
   }
