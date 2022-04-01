@@ -1,4 +1,4 @@
-var map = L.map('map',{scrollWheelZoom: false }).setView([52.717, 4.95], 10);
+var map = L.map('map',{scrollWheelZoom: false }).setView([52.717, 4.95], 9);
 
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoieW9sYW4iLCJhIjoiY2puYmk0ZXByMDF3bDN2cDZueGZqNDJsayJ9.g1Mg6-OOpeAcSC4ykvwCEw', {
