@@ -61,7 +61,7 @@
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-
+      max-width: 500% !important;
     }
 
     .slideshow .left {
@@ -69,7 +69,7 @@
     }
     
     .slideshow .right {
-      right: -72%;
+      right: -40%;
     }
 
   }

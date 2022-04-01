@@ -5,8 +5,8 @@
         flex-direction: row;
     }
     .logo{
-        height: 10%;
-        width: 10%;
+        height: 7%;
+        width: 7%;
     }
 
     #homepage{
@@ -92,7 +92,7 @@
         text-align: justify;
         color: #fff;
         margin-left: 5%;
-        margin-right: 2%;
+        margin-right: 5%;
         margin-bottom: 5%;
         /* margin-top: 1%; */
     }
@@ -100,25 +100,37 @@
     .intro-img{
         margin-right: 5%;
         margin-top: 1.5%;
+        margin-left: 5%;
     }
     
     #intro-img{
         height: auto;
-        width: 40vw;
+        width: 45vw;
     }
 
     /* vindplaats */
+
+    #vindplaats{
+        height: 100%;
+    }
 
     .vindplaats-titel{
         padding-top: 2%;
     }
 
     .vindplaats-text{
+        text-align: justify;
+        color: #000;
         margin-left: 5%;
+        /* margin-right: 10%; */
+        margin-bottom: 5%;
+        margin-top: 2%;
     }
 
     .leaflet{
         margin-right: 5%;
+        margin-top: 2%;
+        /* margin-left: 10%; */
         height: auto;
         width: 400%;
     }
@@ -130,12 +142,19 @@
     }
 
     .vondsten-text{
+        text-align: justify;
+        color: #fff;
         margin-left: 5%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+        margin-top: 2%;
     }
     
     .vondsten-img{
-        margin-right: 10%;
-        width: 700%;
+        margin-right: 1%;
+        margin-left: 11%;
+        margin-top: 2%;
+        width: 889%;
         height: auto;
     }
 
