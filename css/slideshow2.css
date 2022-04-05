@@ -47,6 +47,26 @@
     top: 0;
   }
 
+  .text {
+    color: #fff;
+    font-size: 10px;
+    /* font-weight: 900; */
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    margin: 2%;
+  
+  }
+
+  .text span{ 
+    background-color: rgba(40, 144, 223, 0.8);
+    /* background-color: rgba(251, 176, 2, 1); */
+    padding: 2%;
+    border-radius: 5px;
+  }
+
   @media (min-width: 1200px){
       .slideshow{
           margin-right: 10%;
