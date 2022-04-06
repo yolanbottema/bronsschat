@@ -22,6 +22,10 @@ html {
     display: flex;
     flex-direction: column;
 }
+figcaption{
+    font-style: italic;
+    font-size: 15px;
+}
 /* homepage */
 .header{
     background-color: #fbb002;
@@ -115,6 +119,33 @@ html {
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+/* bewoners */
+#bewoners{
+    background-color: #fff;
+    height: 100%;
+}
+.bewoners-titel{
+    color:#2890df;
+    text-align: center;
+    padding-top: 5%;
+}
+.bewoners-text{
+    text-align: left;
+    color: #000;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.bewoners-img{
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#bewoners-img{
+    height: auto;
+    width: 90vw;
 }
 /* footer */
 .footer {
@@ -288,6 +319,26 @@ img#pnh{
         margin-top: 2%;
         width: 889%;
         height: auto;
+    }
+    /* bewoners */
+    .bewoners-titel{
+        padding-top: 2%;
+    }
+    .bewoners-text{
+        text-align: left;
+        color: #000;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    .bewoners-img{
+        margin-right: 5%;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+    #bewoners-img{
+        height: auto;
+        width: 45vw;
     }
     /* footer */
     .footer {
